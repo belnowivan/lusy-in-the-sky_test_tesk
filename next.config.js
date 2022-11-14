@@ -12,7 +12,7 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "media.lucyinthesky.com",
-        port: "",
+        port: "443",
         pathname: "/data/**",
       },
     ],
