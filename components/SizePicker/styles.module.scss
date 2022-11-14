@@ -1,0 +1,28 @@
+.sizes {
+  display: flex;
+
+  &Item {
+    border: 1px solid #dddddd;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 44px;
+    padding: 0;
+    width: 64px;
+    color: #000000;
+    font-weight: 300;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    margin-right: 6px;
+  }
+
+  &Item:hover {
+    background-color: black;
+    color: white;
+  }
+
+  &ItemSelected {
+    background-color: black;
+    color: white;
+  }
+}

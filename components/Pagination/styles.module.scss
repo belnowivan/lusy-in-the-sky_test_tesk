@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+}
+
+.pageItem {
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+  background: #ffffff;
+  padding: 10px 13px 8px 13px;
+  border-right: 1px solid #dee2e6;
+  color: #62636d;
+
+  &FirstItem {
+    border-left: 1px solid #dee2e6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  &LastItem {
+    border-right: 1px solid #dee2e6;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  &Active {
+    background-color: #dee2e6;
+  }
+}
+
+.pageDisable {
+  pointer-events: none;
+}

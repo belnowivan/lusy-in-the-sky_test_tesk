@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.size {
+  &S {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    .priceOld {
+      padding-right: 4px;
+    }
+  }
+
+  &M {
+    font-size: 14px;
+    line-height: 19px;
+
+    .priceOld {
+      padding-right: 8px;
+    }
+  }
+
+  &L {
+    font-size: 16px;
+    line-height: 22px;
+
+    .priceOld {
+      padding-right: 12px;
+    }
+  }
+}
+
+.price {
+  color: #62636d;
+}
+
+.priceOld {
+  text-decoration: line-through;
+}
+
+.special {
+  color: #f97369;
+}
