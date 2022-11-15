@@ -13,7 +13,7 @@ interface StaticProps {
 }
 
 export const getStaticPaths = async (): Promise<StaticProps> => {
-    const { data: { pageCount } } = await productServicesInstance.get({ page: 0 });
+    const { data: { pageCount } } = await productServicesInstance.get({ page: 1 });
     const arrayOfQueryAllPages = Array(pageCount).fill(null).map((_, index: number) =>
         productServicesInstance.get({ page: index + 1 }).then(({ data: { data } }) => data.map(({ id }) => id)));
 
